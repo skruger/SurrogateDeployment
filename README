@@ -1,1 +1,11 @@
 Surrogate deployment scripts.
+
+build-release.sh executes all of the rebar commmands required to build a 
+surrogate relase that is ready to be deployed.
+
+To get surrogate running.
+
+$ ./build-release.sh
+$ ./release/surrogate/bin/surrogate console
+
+Surrogate may need to run as root in order to bind privileged ports ( <1024).  
